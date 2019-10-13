@@ -25,9 +25,10 @@
 #include <iostream>
 #include <iterator>
 #include <string>
+#include <string_view>
 
 template<typename TapeType, std::size_t TapeSize>
-void execute(const std::string& source){
+void execute(std::string_view source){
     std::array<TapeType, TapeSize*2> tape;
     std::size_t pointer = TapeSize;
 
