@@ -1,5 +1,5 @@
 /**
- * @file   bfi.cpp
+ * @file   BrainFuck/bfi.cpp
  * @author Peter Züger
  * @date   06.07.2019
  * @brief  BrainFuck Interpreter
